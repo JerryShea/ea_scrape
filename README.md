@@ -12,6 +12,10 @@ Run ./download.sh to get html files downloaded and converted to (one) JSON file 
   This will create a store directory and generate a bunch of files yyyy-mm-dd.html in there,
 and also create all.json and all.csv files 
 
-This has been tested on Mac OS X 10.7.5 with python 2.7.1
+This has been tested on Mac OS X 10.7.5 with python 2.7.1. Your mileage may vary.
 
-TODO: Soon I will upload script to suck data into postgreSQL, misc SQL for data analysis, and scripts to graph data using gnuplot
+TODO: 
+
+- Upload script to suck data into postgreSQL & misc SQL for data analysis
+- Upload scripts to graph data using gnuplot
+- Known bug: if you provide incorrect login details the script will not warn you, it will just download garbage, and you will get nothing in your JSON and CSV files
