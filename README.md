@@ -1,13 +1,12 @@
 ea_scrape
 =========
 
-Scrape half-hourly smart meter data from Energy Australia's website to a CSV
+Scrape half-hourly smart meter data from Energy Australia's eWise website to a CSV
 
 Instructions
 ============
 
 download.sh to get html files downloaded and converted to (multiple) JSON files & (one) CSV
+  Usage: download.sh username password from(yyyy/mm/dd)
 
-upload.sh to upload data into postgreSQL
 
-plot.sh gnuplot the data
