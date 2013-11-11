@@ -9,6 +9,6 @@ set bmargin at screen 0.30
 set key left top
 set grid
 
-filename="store1/all.csv"
+filename="store/all.csv"
 plot filename using 1:3 title 'power (kwh)' with boxes
 set title "Power usage (kwh) by half hour over time"
